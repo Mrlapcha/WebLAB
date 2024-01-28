@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12_b</title>
+    <style>
+        span{
+            color:red;
+        }
+       fieldset{
+        padding:10px;
+       }
+       button{
+        padding:5px;
+        margin:8px;
+       }
+
+    </style>
+</head>
+<body>
+    <fieldset style="display: inline;">
+        <legend >Customer</legend>
+
+        <form action="">
+            <table>
+                <tr>
+                    <td>Name<span>*</span></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email<span style="color:red;">*</span></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Investment</td>
+                    <td>
+                        <select>
+                            <option value="" disabled selected></option>
+                            <option >Scheme 1</option>
+                            <option >Scheme 2</option>
+                            <option >Scheme 3</option>
+                          </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Date Joined<span>*</span></td>
+                    <td><input type="date"></td>
+                </tr>
+
+                <tr>
+                    <td>Active</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+              
+            </table>
+        </form>
+    </fieldset>
+    <table >
+        <br>
+        <tr>
+            <button>Submit</button>
+            <button>Cancel</button>
+        </tr>
+    </table>
+</body>
+</html>
